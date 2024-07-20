@@ -77,7 +77,7 @@ nav .nav-button:disabled {
     height: 100vh;
     position: fixed;
     background-image:  url('images/WhatsApp\ Image\ 2024-07-18\ at\ 9.46.01\ PM.jpeg');
-    
+    background-size: 100% 100%;
 }
 .title{
     font-size: 90px;
@@ -89,7 +89,7 @@ nav .nav-button:disabled {
     display: flex;
     padding: 0px 41px;
     margin-left:149px;
-    color: rgb(235, 228, 230);
+    color: rgb(107 102 103);
     border-radius: 20px;
     justify-content: center;
     
@@ -124,4 +124,70 @@ nav .nav-button:disabled {
     padding: 8px;
     margin: 8px;
     font-size: 17px;
+}
+
+.onboarding{
+    border-top: solid 2px rgb(159, 156, 156);
+}
+.onboarding form{
+    justify-content: center;
+    display: flex;
+}
+.onboarding form section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width:25%;
+    text-align: start;
+
+}
+.onboarding form label {
+    margin: 10px 0;
+}
+.onboarding form input[type=radio]:checked + label {
+    border: solid 2px rgb(228, 53, 37);
+}
+.onboarding form input {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 15px;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.onboarding form input::-webkit-outer-spin-button,
+.onboarding form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.onboarding form .multiple-input-container {
+    display: flex;
+    flex-direction: row;
+}
+.onboarding form .multiple-input-container input {
+    margin-right: 10px;
+}
+.onboarding .show{
+    margin-right: 315px;
+}
+.onboarding form .multiple-input-container label {
+    padding: 10px;
+    border: solid 2px rgb(144, 144, 144);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+.onboarding form input[type=radio] {
+    display: none;
+}
+.onboarding form input[type=submit]:hover {
+    background-color: rgb(198, 192, 192);
+}
+.onboarding form input[type=submit]:active {
+    background-color: rgb(226, 115, 115);
+}
+.onboarding form input[type=number] {
+    width: 10%;
+}
+.onboarding form .photo-container img {
+    width: 100%
 }
