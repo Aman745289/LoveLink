@@ -22,7 +22,7 @@ const Home=() => {
     return (
       <div class="overlay">
       <Nav minimal={false} 
-      authToken={authToken} 
+      
       setShowModal={setShowModal} 
       showModal={showModal}
       setisSignUp={setisSignUp}
