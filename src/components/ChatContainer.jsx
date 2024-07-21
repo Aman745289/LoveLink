@@ -1,10 +1,28 @@
-const ChatContainer = () =>{
+import ChatHeader from "./chatHeader"
+import MatchDisplay from "./MatchDisplay"
+import ChatDisplay from "./ChatDisplay"
 
 
 
-    return  <div>ChatContainer</div>
-    
-   
+
+const ChatContainer = () => {
+
+
+    return ( 
+        <div className="chat-container">
+        <ChatHeader/>
+        <div>
+            <button className="option">Matches</button>
+            <button className="option">Chat</button>
+
+        </div>
+        <MatchDisplay />
+        <ChatDisplay />
+
+
+    </div>
+
+    )
 }
 
 
