@@ -78,7 +78,7 @@ nav .nav-button:disabled {
     position: fixed;
     background-image:  url('images/close-up-woman-hand-hold-using-smart-phone-with-heart-icon-at-outdoor-park-street-background.jpeg');
     background-size: 100% 100%;
-    image-resolution:high;
+    image-resolution:'high';
 }
 .title{
     font-size: 90px;
@@ -244,4 +244,54 @@ nav .nav-button:disabled {
     width: 30%;
     text-align: left;
     z-index: 1;
+}
+.chat-container .chat-container-Header {
+    background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chat-container .option {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(243, 33, 33);
+    font-size: 20px;
+    margin: 2px;
+    padding: 10px;
+}
+.chat-container .option:disabled {
+    border-bottom: solid 4px rgb(187, 187, 187);
+}
+.chat-container .profile,
+.chat-container .log-out-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.image-container {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 10px;
+}
+.image-container img {
+    width: 100%;
+}
+.chat-input .text{
+    font-size:medium;
+    margin-top:-82px;
+}
+
+.chat-display {
+    padding: 20px;
+    height: 60vh;
+    overflow-y: auto;
+}
+.chat-input {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }

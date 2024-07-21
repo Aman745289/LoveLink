@@ -6,8 +6,8 @@ const ChatInput = () => {
 
     return (
         <div className="chat-input">
-            <textarea value={textArea} onChange={(e)=>setTextArea(e.target.value)} />
-            <button className="secondary-btn">Submit</button>
+            <textarea className="text" value={textArea} onChange={(e)=>setTextArea(e.target.value)} />
+            <button className="secondary-btn">Send</button>
         </div>
     )
 
