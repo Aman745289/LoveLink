@@ -76,8 +76,9 @@ nav .nav-button:disabled {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-image:  url('images/WhatsApp\ Image\ 2024-07-18\ at\ 9.46.01\ PM.jpeg');
+    background-image:  url('images/close-up-woman-hand-hold-using-smart-phone-with-heart-icon-at-outdoor-park-street-background.jpeg');
     background-size: 100% 100%;
+    image-resolution:high;
 }
 .title{
     font-size: 90px;
@@ -191,3 +192,47 @@ nav .nav-button:disabled {
 .onboarding form .photo-container img {
     width: 100%
 }
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .swiper-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+  
+.dashboard .card-container {
+    width: 500px;
+    height: 446px;
+  }
+
+.swipe {
+    position: absolute;
+}
+.card { 
+    width: 290px;
+    height: 446px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+.card h3 {
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    color: #fff;
+  }
+.dashboard .swipe-info {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+  

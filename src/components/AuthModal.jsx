@@ -72,7 +72,6 @@ const Authmodal=({setShowModal, isSignUp}) => {
           <hr/>
           <h2>GET THE APP</h2>
         </form>
-        Auth Modal
       </div>
     );
   }
